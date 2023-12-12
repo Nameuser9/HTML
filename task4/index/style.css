@@ -1,0 +1,255 @@
+
+.box {
+    position: relative;
+    width: 1920px;
+    height: 1500;
+  }
+  
+  .box .HOME-PAGE {
+    position: fixed;
+    width: 1920px;
+    height: 700px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .box .image {
+    position: absolute;
+    width: 611px;
+    height: 373px;
+    top: 164px;
+    left: 934px;
+  }
+  
+  .box .home-meta {
+    position: absolute;
+    width: 522px;
+    height: 374px;
+    top: 164px;
+    left: 373px;
+  }
+  
+  .box .button-meta {
+    width: 302px;
+    top: 324px;
+    left: 2px;
+    position: absolute;
+    height: 50px;
+  }
+  
+  .box .button {
+    width: 142px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 50px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .box .overlap-group {
+    position: relative;
+    width: 140px;
+    height: 50px;
+    background-color: #f25822;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px #f2582133;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    font-family: "Gilroy-Bold-☞", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .video {
+    position: absolute;
+    width: 92px;
+    height: 19px;
+    top: 15px;
+    left: 212px;
+  }
+  
+  .box .div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Gilroy-Bold-☞", Helvetica;
+    font-weight: 400;
+    color: #aaaaaa;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .sub-title {
+    position: absolute;
+    width: 468px;
+    height: 48px;
+    top: 239px;
+    left: 0;
+  }
+  
+  .box .provide-all-kind-of {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Gilroy-Medium-☞", Helvetica;
+    font-weight: 400;
+    color: #888888;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .title {
+    position: absolute;
+    width: 524px;
+    height: 222px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .SEO-digital {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Gilroy-Bold-☞", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .meun-bar {
+    position: absolute;
+    width: 1170px;
+    height: 40px;
+    top: 40px;
+    left: 375px;
+  }
+  
+  .box .menu {
+    width: 533px;
+    top: 11px;
+    left: 637px;
+    position: absolute;
+    height: 17px;
+  }
+  
+  .box .overlap-group-2 {
+    position: relative;
+    width: 535px;
+    height: 17px;
+  }
+  
+  .box .icon {
+    position: absolute;
+    width: 7px;
+    height: 4px;
+    top: 6px;
+    left: 314px;
+  }
+  
+  .box .home-about-us-wrapper {
+    width: 535px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 17px;
+  }
+  
+  .box .home-about-us {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Gilroy-SemiBold-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .lInk_Colored {
+    color: #f25822;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  .lInk{
+    color: #000;
+  }
+
+  .box .logo {
+    width: 137px;
+    position: absolute;
+    height: 40px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .text {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    top: 5px;
+    left: 49px;
+  }
+  
+  .box .grow-be {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Gilroy-Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-3 {
+    color: #000000;
+  }
+  
+  .box .img {
+    width: 35px;
+    object-fit: cover;
+    position: absolute;
+    height: 40px;
+    top: 0;
+    left: 0;
+  }
+  .box {
+    position: relative;
+    width: 1200px;
+    height: 50px;
+  }
+  
+  .box .brand-logo {
+    position: fixed;
+    width: 1200px;
+    height: 50px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .element {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+
+  
