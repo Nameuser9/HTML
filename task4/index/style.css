@@ -250,6 +250,9 @@
     left: 0;
     object-fit: cover;
   }
-
+  .footer-content{
+    display: block;
+    align-items: flex-end;
+  }
 
   

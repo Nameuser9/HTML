@@ -1,0 +1,227 @@
+.top_box{
+    width: 1915px;
+    height: 491px;    
+}
+.top_box .FEATURES{
+    position: fixed;
+    width: 1915px;
+    height: 491px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    }
+.top_box .features{
+    position: absolute;
+    width: 310px;
+    height: 226px;
+    top: 140px;
+    left: 1204px;
+}
+.top_box .features2{
+    position: absolute;
+    width: 370px;
+    height: 291px;
+    top: 100px;
+    left: 775px;
+    background-color: #ffffff;
+    box-shadow: 15px 25px 56px 6px #0000000f;
+    }
+.top_box .features3{
+    position: absolute;
+    width: 310px;
+    height: 226px;
+    top: 140px;
+    left: 404px;
+}
+.top_box .button{
+    top: 209px;
+    left: 0;
+    position: absolute;
+    width: 66px;
+    height: 17px;
+    all:unset;
+    box-sizing: border-box
+}
+.box{
+
+    position: relative;
+    width: 1920px;
+    height: 919px;
+}
+.box .SERVICES{
+    position: fixed;
+    width: 1920px;
+    height: 919px;
+    top: 0;
+    left: 0;
+    background-color: #f9f9f9;
+    
+}
+.box .services{
+    position: absolute;
+    width: 370px;
+    height: 549px;
+    top: 270px;
+    left: 1175px;
+    background-color: #ffffff;
+}
+.box .button2{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 449px;
+    left: 100px;
+    background-color: #f25822;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px #f2582133;
+    all: unset;
+    box-sizing: border-box;
+}
+.box .text{
+    position: absolute;
+    top: 400px;
+    left: 46px;
+    width: 70px;
+    height: 20px;
+}
+.box .text-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Gilroy-Bold" ,Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19.5px;
+    white-space: nowrap;    
+}
+.box .icon{
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    top: 20px;
+    left: 119px;
+}
+.box .div-wrapper{
+    position: absolute;
+    width: 312px;
+    height: 63px;
+    top: 347px;
+    left: 30px;
+}
+.box .div{
+    position: absolute;
+    width: 310px;
+    top: 0;
+    left: 0;
+    font-family: Gilroy-Regular , Helvetica;
+    font-weight: 400;
+    color: #aaaaaa;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.5px;
+}
+.box .title{
+    position: absolute;
+    width: 189px;
+    height: 30px;
+    top: 295px;
+    left: 92px;
+}
+.box .text-wrapper-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: Gilroy-Bold, Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.box .illustration{
+    position: absolute;
+    width: 370px;
+    height: 270px;
+    top: 0;
+    left: 0;
+}
+.box .services-2{
+    position: absolute;
+    width: 370px;
+    height: 549px;
+    top: 270px;
+    left: 775px;
+    background-color: #ffffff;
+    box-shadow: 15px 25px 60px -5px #0000001a;
+}
+.box .title-2{
+    position: absolute;
+    width: 210px;
+    height: 30px;
+    top: 295px;
+    left: 81px;
+}
+.box .services-3{
+    position: absolute;
+    width: 370px;
+    height: 549px;
+    top: 270px;
+    left: 375px;
+    background-color: #ffffff;
+}
+.box .img{
+    position: absolute;
+    width: 204px;
+    height: 30px;
+    top: 295px;
+    left: 83px;
+}
+.box .secation-title{
+    position: absolute;
+    width: 682px;
+    height: 123px;
+    top: 92px;
+    left: 619px;
+}
+.box .distinctively-wrapper{
+    position: absolute;
+    width: 684px;
+    height: 48px;
+    top: 75px;
+    left: 0;
+}
+.box .distinctively{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: Helvetica;
+    font-weight: 400;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.box .title-3{
+    position: absolute;
+    width: 579px;
+    height: 56px;
+    top: 0;
+    left: 51px;
+    
+}
+.box .p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+}
