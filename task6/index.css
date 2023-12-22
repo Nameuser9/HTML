@@ -48,6 +48,7 @@
     font-weight: 300;
     line-height: normal;
 }
+
 .position{
     width: 360px;
     height: 260px;
@@ -145,4 +146,21 @@
     font-weight: 300;
     line-height: normal;
     position:calc(width 50%);
+}
+@media (max-width: 767) and (min-width: 320){
+    .box{
+        width: 100%;
+        height: 2985px;
+    }
+    .header{
+        height: 30px;
+        width: 100%;
+    }
+    .background{
+        width: 100%;
+        height: 400;
+    }
+    .midBox{
+
+    }
 }
