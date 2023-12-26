@@ -1,46 +1,99 @@
-
+body{
+    margin: 0;
+}
 .box{
-    width: 1600;
+    width: 1920px;
     height: 2925px;
     background-color: #fff;
 }
 .header{
-    
+    gap: 15%;
+    display: flex;
     position: relative;
-    width: 1600px;
+    width: 1920px;
     height: 75px;
     flex-shrink: 0;
     background-color: #222;
+    align-items: center;
 }
 .logo{
-    left: 75px;
+    margin-left: 1%;
+    
     position: relative;
     width: 44px;
     height: 38px;
     flex-shrink: 0;
 }
 .search{
+    
     position: relative;
     width: 26.002px;
-    left: 90px;
+    
     height: 26.792px;
     flex-shrink: 0;
 }
 .buttons{
+    
+    margin-left: 50%;
     width: 158.996px;
     height: 29px;
-    left: 50%;
+    
     flex-shrink: 0;
     position: relative;
 }
 .background{
-    width: 1600px;
+    display: flex;
+    width: 1920px;
     height: 764px;
     flex-shrink: 0;
     background-color: #F1E4E6;
 }
+.rectangle{
+    margin-top: 10%;
+    background: #F16D7F;
+    width: 12px;
+    height: 92px;
+    flex-shrink: 0;
+}
+.THE_BRAND{
+    height: 48px;
+    margin-top: 10%;
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.OF_LUXERIOUS{
+    position: relative;
+    right: 14.5%;
+    margin-top: 12.5%;
+    height: 32px;
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.FASHION{
+    position: relative;
+    right: 14%;
+    margin-top: 12.5%;
+    height: 32px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 .midBox{
-    width: 314.743px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    width: 70%;
     color: #5D5D5D;
     font-family: Lato;
     font-size: 14px;
@@ -50,36 +103,104 @@
 }
 
 .position{
+    
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: url("img/womanMid.png");
+    margin: 10px;
     width: 360px;
     height: 260px;
     flex-shrink: 0;
+    background-color: rgba(33, 22, 22, 0.70);
     
 }
 .position2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: url("img/manMid2.png");
+    margin: 10px;
     width: 360px;
     height: 260px;
     flex-shrink: 0;
+    background-color: rgba(33, 22, 22, 0.70);
     
 }
 .position3{
-    width: 1140px;
-    height: 180px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/manMid3.png");
+    margin: 10px;
+    width: 360px;
+    height: 260px;
+    background-color: rgba(33, 22, 22, 0.70);
     flex-shrink: 0;
    
 }
 .position_wide{
-    width: 360px;
-    height: 260px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: url("img/womanMid4.png");
+    margin: 10px;
+    width: 1140px;
+    height: 180px;
     flex-shrink: 0;
+    background-color: rgba(33, 22, 22, 0.70);
     
 }
+.smallcontainer{
+    height: 100px;
+    margin-bottom: 10px;
+}
+.midMain{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.midText{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.items{
+    margin-left: 42%;
+}
+.items2{
+    width: 314.743px;
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 38%;
+    margin-bottom: 10px;
+}
 .products{
+    position: relative;
     display: flex;
-    width: 1140px;
-    height: 1395px;
+    width: 60%;
+    height: 55%;
     flex-shrink: 0;
-    top: 1470px;
-    left: 230px;
+    margin-left: 15%;
     border: 1px;
     border-color: #ff6a6a;
     flex-direction: row;
@@ -134,18 +255,113 @@
     font-weight: 300;
     line-height: normal;
 }
-.items{
-    position:calc(width 50%);
+.footer{
+    position: relative;
+    height: 500px;
 }
-.items2{
-    width: 314.743px;
-    color: #5D5D5D;
+.pros{
+    display: flex;
+    width: 1920px;
+    height: 38%;
+    background-color: #000;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.pros_name{
+    color: #FBFBFB;
     font-family: Lato;
-    font-size: 14px;
+    font-size: 19.96px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: normal;
-    position:calc(width 50%);
+}
+.e-mailSubs{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.photo_and_quote{
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    height: 94px;
+    width: 94px;
+    border-radius: 100px;
+}
+.quote
+{
+    color: #222224;
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.e-mail{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    box-sizing: border-box;
+    font-family: inherit;
+    border-radius: 100px;
+    height: 14%;
+}
+.email::placeholder{
+    
+}
+.SUBS{
+    margin: 0;
+    margin-top: 20%;
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+.subs{
+    margin: 0;
+    color: #222224;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+}
+.deep{
+    display: flex;
+    width: 1920px;
+    height: 10%;
+    background-color: #000;
+    align-content: center;
+    
+}
+
+.sign{
+    margin-left: 15%;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 @media (max-width: 767) and (min-width: 320){
     .box{
