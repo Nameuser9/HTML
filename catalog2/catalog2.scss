@@ -8,7 +8,6 @@ body{
 .header{ 
 display: flex;
 position: relative;
-width: 1920px;
 height: 75px;
 flex-shrink: 0;
 background-color: #222;
@@ -201,7 +200,8 @@ display: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
+    width: 80%;
+    left: 10%;
     height: 32%;
     margin: 0;
     border: 1px;
@@ -214,12 +214,108 @@ display: none;
     justify-content: space-around;
     
 }
+summary {
+    display: block;
+    }
+    summary::-webkit-details-marker {
+    display: none;
+    }
+
+.filters{
+    padding-top: 3%;
+    height: 1%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    gap: 13px;
+    width: 48%;
+    .span{
+        margin-left: 2px;
+    }
+}
+ul{
+list-style-type: none
+}
+.filter{
+    
+    padding: 13px 16px 16px;
+    position: relative;
+    width: 350px;
+    &_summary{
+        display: flex;
+        align-items: center;
+        gap: 11px;
+    }
+    margin-right: 25%;
+    &_category{
+        position: absolute;
+    }
+    
+    &_summary{
+        color: #000;
+    }
+    &[open] .filter_summary{
+        color: #EF5B70;
+        }
+    &[open] path {
+        fill: #EF5B70;
+    }
+    &[open]{
+        background: #ffffff;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    }
+    &__item{
+        margin-top: 16px;
+        
+    }
+    &__item[open] .filter__heading{
+        color: #EF5B70;
+        }
+    &__heading{
+        color: #6F6E6E;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 8px 11px 11px 11px;
+        border-bottom: 1px solid #EBEBEB;
+        border-left: 5px solid #EF5B70;
+    }
+    &__link{
+        color: #6F6E6E;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        &:hover{
+            color: #EF5B70;
+        }
+    }
+    & .link_box{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        padding: 24px 16px;       
+    }
+}
+.filter2{
+    &_box{
+        display: flex;
+        background: #ffffff;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        width: 45px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
 .thing{
     top: 0%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 28%;
+    width: 23%;
     height: 31%;
     -ms-flex-negative: 0;
     flex-shrink: 0;
@@ -276,7 +372,36 @@ display: none;
 }
 .footer{
     position: relative;
-    
+    height: 500px;
+}
+.pros{
+    display: flex;
+    width: 100%;
+    height: 38%;
+    background-color: #000;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.pros_name{
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.e-mailSubs{
+    display: flex;
+    width: 100%;
+    height: 50%;
 }
 .photo_and_quote{
     width: 15%;
@@ -294,15 +419,12 @@ display: none;
 .quote
 {
     color: #222224;
-    text-align: center;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.e-mailSubs{
-    display: flex;
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .e-mail{
     margin-left: 20%;
