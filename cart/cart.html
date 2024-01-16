@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="cart.css"/>
+</head>
+<body>
+    <div class="box">  
+        <header class="header">
+            
+            <img src="img/logo.png" class="logo">
+            <button type="button" class="search">
+            <img src="img/search.svg" class="search-icon">
+            </button>
+            <button type="button" class="menu">
+                <img src="img/menu.svg" class="menu-icon">
+            </button>
+            <button type="button" class="account">
+                <img src="img/account.svg" class="account-icon">
+            </button>
+            <button type="button" class="cart">
+                <img src="img/cart.svg" class="cart-icon">
+            </button>
+        
+        </header>
+        <div class="page-name">
+            <h2 class="page-name-p">SHOPPING CART</h2>
+        </div>
+        <div class="cart-place">
+            <div class="cart-products">
+                <div class="product">
+                    <img class="product-photo" src="img/man1.jpg" alt="">
+                    <svg class="cross" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757"/>
+                        </svg>
+                    <div class="product-info">
+                        <p class="product-info-name">MANGO PEOPLE T-SHORT</p>
+                        <p class="product-info-price">Price <span>300$</span></p>
+                        <p class="product-info-color">Color <span>Red</span></p>
+                        <p class="product-info-size">Size<span>Xl</span></p>
+                        <p class="product-info-quantity">Quantity<span>2</span></p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img class="product-photo" src="img/man3.png" alt="">
+                    <svg class="cross" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757"/>
+                        </svg>
+                        <div class="product-info">
+                        <p class="product-info-name">MANGO PEOPLE T-SHORT</p>
+                        <p class="product-info-price">Price <span>300$</span></p>
+                        <p class="product-info-color">Color <span>Red</span></p>
+                        <p class="product-info-size">Size<span>Xl</span></p>
+                        <p class="product-info-quantity">Quantity<span>2</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="client-data">
+                <h3>SHIPING ADRESS</h3>
+                <input class="client-data-input1" type="text" placeholder="country">
+                <input class="client-data-input2" type="text" placeholder="state/district">
+                <input class="client-data-input2" type="text" placeholder="Postcode/Zip">
+                <button type="submit" class="client-data-button"><p class="client-data-button-placeholder">"GET A QUOTE"</p></button>
+            
+                <div class="client-data-total-cost">
+                    <h4 class="client-data-total-cost-sub-total-price">SUB TOTAL:    600$</h4>
+                    <h4 class="client-data-total-cost-total-price">GRAND TOTAL:  <span>  600$</span></h4>
+                <button class="client-data-total-cost-proceed-to-checkout">PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+            <footer class="footer">
+                <div class="e-mailSubs">
+                    <div class="photo_and_quote">
+                    <img class="photo" src="img/photo.png">
+                    <p class="quote">
+                        “Vestibulum quis porttitor 
+                        Quisque<br> viverra nunc mi
+                        , a pulvinar purus <br>condimentum“     
+                    </p>
+                    </div>
+                    <div class="e-mail">
+                    <p class="SUBS">
+                        SUBSCRIBE 
+                    </p>
+                    <p class="subs">
+                        FOR OUR NEWLETTER AND PROMOTION
+                    </p>
+                    
+                    <input class="email" type="email" placeholder="Enter Your Email"  >
+                    </div>
+                    
+                </div>
+                <div class="deep">
+                    <p class="sign">u have no rights 2024</p>
+                </div>
+            </footer>
+        
+
+
+    </div>
+</body>
+</html>
