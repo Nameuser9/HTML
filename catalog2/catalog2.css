@@ -429,6 +429,10 @@ ul {
   margin: 2%;
 }
 
+.thing-img {
+  width: 100%;
+}
+
 .woman2 {
   background-color: #F1E4E6;
 }
@@ -453,7 +457,7 @@ ul {
 }
 
 .title3 {
-  width: 148.114px;
+  width: 100%;
   color: #000;
   font-family: Lato;
   font-size: 13px;
@@ -463,7 +467,7 @@ ul {
 }
 
 .price {
-  width: 52.457px;
+  width: 100%;
   color: #F16D7F;
   font-family: Lato;
   font-size: 16px;
@@ -473,7 +477,7 @@ ul {
 }
 
 .description {
-  width: 314.743px;
+  width: 100%;
   color: #5D5D5D;
   font-family: Lato;
   font-size: 14px;
@@ -487,7 +491,7 @@ ul {
   height: 500px;
 }
 
-.pros {
+.footer .pros {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,7 +508,7 @@ ul {
           justify-content: space-evenly;
 }
 
-.pro {
+.footer .pro {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -522,7 +526,7 @@ ul {
           align-items: center;
 }
 
-.pros_name {
+.footer .pros_name {
   color: #FBFBFB;
   font-family: Lato;
   font-size: 19.96px;
@@ -531,7 +535,7 @@ ul {
   line-height: normal;
 }
 
-.e-mailSubs {
+.footer .e-mailSubs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -539,7 +543,7 @@ ul {
   height: 50%;
 }
 
-.photo_and_quote {
+.footer .photo_and_quote {
   width: 15%;
   margin-top: 2%;
   margin-left: 15%;
@@ -555,13 +559,13 @@ ul {
           align-items: center;
 }
 
-.photo {
+.footer .photo {
   height: 94px;
   width: 94px;
   border-radius: 100px;
 }
 
-.quote {
+.footer .quote {
   color: #222224;
   text-align: center;
   font-family: Lato;
@@ -571,7 +575,7 @@ ul {
   line-height: normal;
 }
 
-.e-mail {
+.footer .e-mail {
   margin-left: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -582,7 +586,7 @@ ul {
           flex-direction: column;
 }
 
-.email {
+.footer .email {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: inherit;
@@ -590,7 +594,7 @@ ul {
   height: 14%;
 }
 
-.SUBS {
+.footer .SUBS {
   margin: 0;
   margin-top: 20%;
   color: #222224;
@@ -602,7 +606,7 @@ ul {
   line-height: 167.2%;
 }
 
-.subs {
+.footer .subs {
   margin: 0;
   color: #222224;
   font-family: Lato;
@@ -612,7 +616,7 @@ ul {
   line-height: 167.2%;
 }
 
-.deep {
+.footer .deep {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -623,7 +627,7 @@ ul {
       align-content: center;
 }
 
-.sign {
+.footer .sign {
   position: relative;
   left: 15%;
   color: #FBFBFB;
@@ -632,5 +636,20 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media screen {
+  .header .search {
+    left: 20%;
+  }
+  .header .menu {
+    left: 30%;
+  }
+  .header .account {
+    left: 40%;
+  }
+  .header .cart {
+    left: 50%;
+  }
 }
 /*# sourceMappingURL=catalog2.css.map */

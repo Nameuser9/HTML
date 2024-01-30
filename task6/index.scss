@@ -94,7 +94,7 @@ top: 75%;
     background-color: #F1E4E6;
 }
 .rectangle{
-    margin-top: 10%;
+    
     background: #F16D7F;
     width: 12px;
     height: 92px;
@@ -423,7 +423,7 @@ line-height: normal;
     font-weight: 400;
     line-height: normal;
 }
-@media screen and (max-width: 1000px){
+@media screen {
     body{
         margin: 0;
     }
@@ -467,7 +467,7 @@ line-height: normal;
         
         position: relative;
         width: 26.002px;
-        
+        left: 5%;
         height: 26.792px;
         flex-shrink: 0;
     }
@@ -478,21 +478,7 @@ line-height: normal;
         transition-duration: 0.4s;
         border: 0;
     }
-    .linkMenu{
-        border: 1px;
-        border-color: #ff6a6a;
-        border-collapse: collapse;
-        display: none;
-    }
-    
-    .tallMenu {
-        display: none;
-        padding: 15px;
-        border-color: #ff6a6a;
-        position: relative;
-        right: 29%;
-        top: 148%;
-    }
+   
     .account{
         left: 15%;
         position: relative;
@@ -522,7 +508,7 @@ line-height: normal;
     .rectangle{
         position: relative;
         top: 1%;
-        right: 59%;
+        right: 9%;
         background: #F16D7F;
         width: 2%;
         height: 30%;
@@ -538,12 +524,12 @@ line-height: normal;
         font-style: normal;
         font-weight: 900;
         line-height: normal;
-        right: 59%;
+        right: 9%;
         margin: 0;
     }
     .OF_LUXERIOUS{
         position: relative;
-        right: 59.5%;
+        right: 9.5%;
         top: 18.5%;
         height: 32px;
         color: #222;
@@ -556,7 +542,7 @@ line-height: normal;
     }
     .FASHION{
         position: relative;
-        right: 99%;
+        right: 29%;
         top: 39.5%;
         height: 6%;
         color: #F16D7F;
@@ -768,8 +754,7 @@ line-height: normal;
         width: 94px;
         border-radius: 100px;
     }
-    .quote
-    {
+    .quote{
         color: #222224;
     text-align: center;
     font-family: Lato;
@@ -788,9 +773,7 @@ line-height: normal;
         border-radius: 100px;
         height: 14%;
     }
-    .email::placeholder{
-        
-    }
+    
     .SUBS{
         margin: 0;
         margin-top: 20%;
@@ -829,14 +812,8 @@ line-height: normal;
         line-height: normal;
     }
 }
-@media screen and (max-width: 1000px){
-    body{
-        margin: 0;
-    }
-    .box{
-        width: 100%;
-        height: 4500px;
-    }
+
+/*@media screen  {
     .header{
         height: 1.5%;
         width: 100%;
@@ -884,354 +861,4 @@ line-height: normal;
         transition-duration: 0.4s;
         border: 0;
     }
-    .linkMenu{
-        border: 1px;
-        border-color: #ff6a6a;
-        border-collapse: collapse;
-        display: none;
-    }
-    
-    .tallMenu {
-        display: none;
-        padding: 15px;
-        border-color: #ff6a6a;
-        position: relative;
-        right: 29%;
-        top: 148%;
-    }
-    .account{
-        left: 15%;
-        position: relative;
-        background-color: #222;
-        border: 0;
-        transition-duration: 0.4s;
-    }
-    .cart{
-        position: relative;
-        background-color: #222;
-        border: 0;
-        transition-duration: 0.4s;
-        left: 20%;
-    }
-    .background{
-        display: flex;
-        width: 100%;
-        height: 8%;
-        flex-shrink: 0;
-        background-color: #F1E4E6;
-    }
-    .main_model{
-        position:relative;
-        height: 60%;
-        top: 40%;
-    }
-    .rectangle{
-        position: relative;
-        top: 1%;
-        right: 59%;
-        background: #F16D7F;
-        width: 2%;
-        height: 30%;
-        flex-shrink: 0;
-    }
-    .THE_BRAND{
-        position: relative;
-        height: 10%;
-        top: -1%;
-        color: #222;
-        font-family: Lato;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-        right: 59%;
-        margin: 0;
-    }
-    .OF_LUXERIOUS{
-        position: relative;
-        right: 59.5%;
-        top: 18.5%;
-        height: 32px;
-        color: #222;
-        font-family: Lato;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin: 0;
-    }
-    .FASHION{
-        position: relative;
-        right: 99%;
-        top: 39.5%;
-        height: 6%;
-        color: #F16D7F;
-        font-family: Lato;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin: 0;
-    }
-    .position{
-        display: flex;
-        flex-direction: column-reverse;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        background: url("img/womanMid.png");
-        margin: 4%;
-        width: 92%;
-        height: 260px;
-        background-color: rgba(33, 22, 22, 0.70);
-    }
-    .position2{
-        display: flex;
-        flex-direction: column-reverse;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        background: url("img/manMid2.png");
-        margin: 10px;
-        width: 92%;
-        height: 260px;
-        flex-shrink: 0;
-        background-color: rgba(33, 22, 22, 0.70);
-    }
-    .position3{
-        display: flex;
-        flex-direction: column-reverse;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        background-image: url("img/manMid3.png");
-        margin: 10px;
-        width: 92%;
-        height: 260px;
-        background-color: rgba(33, 22, 22, 0.70);
-        flex-shrink: 0;
-    }
-    .position_wide{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        background: url("img/womanMid4.png");
-        margin: 10px;
-        width: 92%;
-        height: 180px;
-        background-color: rgba(33, 22, 22, 0.70);
-    }
-    .smallcontainer{
-        display: flex;
-        height: 6%;
-        margin: 10%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .midMain{
-        color: #F16D7F;
-        font-family: Lato;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    .midText{
-        color: #FFF;
-        text-align: center;
-        font-family: Lato;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    .items2{
-        
-        color: #5D5D5D;
-        font-family: Lato;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-       
-    }
-    .products{
-        /* background-color: #F1E4E6; */
-        position: relative;
-        display: flex;
-        width: 100%;
-        height: 93%;
-        /* flex-shrink: 0; */
-        /* margin-left: 15%; */
-        border: 1px;
-        border-color: #ff6a6a;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .thing{
-        /* background-color: #F1E4E6; */
-        top: 2%;
-        display: flex;
-        width: 62.5%;
-        margin: 4%;
-        height: 16%;
-        flex-shrink: 0;
-        /* fill: #F8F8F8; */
-        flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: row;
-        position: relative;
-    }
-    .woman2{
-        background-color: #F1E4E6;
-    }
-    
-    .title_and_price{
-        display: flex;
-        width: 360px;
-        padding: 24px 16px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 16px;
-    }
-    .title3{
-        width: 148.114px;
-        color: #000;
-        font-family: Lato;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    .price{
-        width: 52.457px;
-        color: #F16D7F;
-        font-family: Lato;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    .description{
-        width: 314.743px;
-        color: #5D5D5D;
-        font-family: Lato;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-    }
-    .footer{
-        top: 2%;
-        position: relative;
-        height: 20%;
-    }
-    .pros{
-        display: flex;
-        width: 100%;
-        height: 55%;
-        background-color: #000;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .pro{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
-    .pros_name{
-        color: #FBFBFB;
-        font-family: Lato;
-        font-size: 19.96px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    .e-mailSubs{
-        margin: 4%;
-        display: flex;
-        width: 82%;
-        height: 50%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .photo_and_quote{
-        height: 45%;
-        width: 94%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .photo{
-        height: 94px;
-        width: 94px;
-        border-radius: 100px;
-    }
-    .quote
-    {
-        color: #222224;
-    text-align: center;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    }
-    .e-mail{
-        display: flex;
-        flex-direction: column;
-    }
-    .email{
-        box-sizing: border-box;
-        font-family: inherit;
-        border-radius: 100px;
-        height: 14%;
-    }
-    .email::placeholder{
-        
-    }
-    .SUBS{
-        margin: 0;
-        margin-top: 20%;
-        color: #222224;
-        text-align: center;
-        font-family: Lato;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 167.2%;
-    }
-    .subs{
-        margin: 0;
-        color: #222224;
-        font-family: Lato;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 167.2%;
-    }
-    .deep{
-        display: flex;
-        width: 100%;
-        height: 10%;
-        background-color: #000;
-        align-content: center;
-    }
-    
-    .sign{
-        margin-left: 15%;
-        color: #FBFBFB;
-        font-family: Lato;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-}
+}*/

@@ -313,17 +313,262 @@ input{
         line-height: normal;
     }
 }
-@media screen and (width: 1024px){
+@media screen and (width: 1024px){ //1024х768
     input{
         margin-left: 23px
     }
+    ul{
+        width: 300px
+    }
+    .header{
+        &-search{
+            left: 20%;
+        }
+        &-menu{
+            left: 30%;
+        }
+        &-account{
+            left: 40%;  
+        }
+        &-cart{
+            left: 50%;
+        }
+    }
+    .page-name{
+        &-p{
+            left: 100px;
+        }
+    }
     .mid{
+        height: 657px;
+        
+        &-inputs{
+            width: 500px;
+
+            &-name , &-name-2{
+                margin: 64px 32px 20px 30px;
+            }
+            
+            &-warring{
+                left: 150px;
+            }
+            &-button{
+                left: 150px;
+            }
+        }
+        
         &-loyalty{
-            left: 41%;
+            bottom: 580px;
+            left: 42%;
+            &-join{
+                width: 582px;
+            }
         }
     }
     
 }
+@media screen and (width: 768px){    //768x1024
+    input{
+        margin-left: 23px;
+        width:  258.986px;
+
+    }
+    ul{
+        width: 300px
+    }
+    .header{
+        &-search{
+            left: 20%;
+        }
+        &-menu{
+            left: 30%;
+        }
+        &-account{
+            left: 40%;  
+        }
+        &-cart{
+            left: 50%;
+        }
+    }
+    .page-name{
+        &-p{
+            left: 100px;
+        }
+    }
+    .mid{
+        height: 657px;
+        
+        &-inputs{       //у строк сливаются границы разобраться почему
+            width: 500px;
+
+            &-name , &-name-2{
+                margin: 64px 32px 20px 30px;
+            }
+            
+            &-warring{
+                left: 150px;
+            }
+            &-button{
+                left: 150px;
+            }
+        }
+        
+        &-loyalty{
+            bottom: 580px;
+            left: 42%;
+            width: 430px;
+            &-join{
+                width: 430px;
+            }
+        }
+    }
+    .footer{
+        &-e-mailSubs{
+            &-photo_and_quote{
+                width: 50%;
+                margin-top: 2%;
+                margin-left: 0%;
+            }
+            &-email{
+                margin-left: 7%;
+                &-subs{
+                    text-align: center;
+                }
+                &-EInput{
+                    left: 11%;
+                    position: relative;
+                }
+            }
+        }
+        
+    }
+    
+} 
+
+/*
+@media screen and (width: 425){
+    input{
+        margin: 0 0 30px 30px;
+    }
+    .header{
+        &-search{
+            left: 20%;
+        }
+        &-menu{
+            left: 30%;
+        }
+        &-account{
+            left: 40%;  
+        }
+        &-cart{
+            left: 50%;
+        }
+    }
+    .page{
+        &-name-p{
+            left: 90px;
+        }
+            }
+    .mid{
+        &-inputs{
+            display: flex;
+            flex-direction: column;
+            
+            &-inputs-name , &-inputs-name-2{
+                margin:  32px 20px 35px;
+            }
+            &-inputs-warring{
+                left: 70px;
+
+            }
+            &-inputs-button{
+                left: 150px;
+            }
+        }
+        &-loyalty{
+            bottom: 0; 
+            left: 0%;
+        }
+    }
+    .footer{
+        &-e-mailSubs{
+            height: 50%;
+            &-photo_and_quote{
+                width: 15%;
+                margin-top: 2%;
+                margin-left: 15%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &-photo{
+                    height: 94px;
+                    width: 94px;
+                    border-radius: 100px;
+                }
+                &-quote
+                {
+                    color: #222224;
+                text-align: center;
+                font-family: Lato;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                }
+        }
+            &-email{
+                margin-left: 0%;
+                display: flex;
+                flex-direction: column;
+                &-EInput{
+                    box-sizing: border-box;
+                    font-family: inherit;
+                    border-radius: 100px;
+                    height: 14%;
+                    margin: 0;
+                }
+                &-SUBS{
+                    margin: 0;
+                    margin-top: 20%;
+                    color: #222224;
+                    text-align: center;
+                    font-family: Lato;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 167.2%;
+                }
+                &-subs{
+                    margin: 0;
+                    color: #222224;
+                    font-family: Lato;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 167.2%;
+                }
+            }      
+    }
+        &-deep{
+            display: flex;
+            width: 100%;
+            height: 12%;
+            background-color: #000;
+            align-content: center;
+        }
+    
+        &-sign{
+            position: relative;
+            left: 15%;
+            color: #FBFBFB;
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}*/
 
 
 

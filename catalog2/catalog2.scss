@@ -331,6 +331,9 @@ list-style-type: none
     position: relative;
     margin: 2%;
 }
+.thing-img{
+    width: 100%;
+}
 .woman2{
     background-color: #F1E4E6;
 }
@@ -344,7 +347,7 @@ list-style-type: none
     gap: 3%;
 }
 .title3{
-    width: 148.114px;
+    width: 100%;
     color: #000;
     font-family: Lato;
     font-size: 13px;
@@ -353,7 +356,7 @@ list-style-type: none
     line-height: normal;
 }
 .price{
-    width: 52.457px;
+    width: 100%;
     color: #F16D7F;
     font-family: Lato;
     font-size: 16px;
@@ -362,7 +365,7 @@ list-style-type: none
     line-height: normal;
 }
 .description{
-    width: 314.743px;
+    width: 100%;
     color: #5D5D5D;
     font-family: Lato;
     font-size: 14px;
@@ -373,108 +376,124 @@ list-style-type: none
 .footer{
     position: relative;
     height: 500px;
-}
-.pros{
-    display: flex;
-    width: 100%;
-    height: 38%;
-    background-color: #000;
-    align-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.pro{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-.pros_name{
-    color: #FBFBFB;
-    font-family: Lato;
-    font-size: 19.96px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.e-mailSubs{
-    display: flex;
-    width: 100%;
-    height: 50%;
-}
-.photo_and_quote{
-    width: 15%;
-    margin-top: 2%;
-    margin-left: 15%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.photo{
-    height: 94px;
-    width: 94px;
-    border-radius: 100px;
-}
-.quote
-{
-    color: #222224;
-text-align: center;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.e-mail{
-    margin-left: 20%;
-    display: flex;
-    flex-direction: column;
-}
-.email{
-    box-sizing: border-box;
-    font-family: inherit;
-    border-radius: 100px;
-    height: 14%;
-}
-.email::placeholder{
-    
-}
-.SUBS{
-    margin: 0;
-    margin-top: 20%;
-    color: #222224;
-    text-align: center;
-    font-family: Lato;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 167.2%;
-}
-.subs{
-    margin: 0;
-    color: #222224;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 167.2%;
-}
-.deep{
-    display: flex;
-    width: 100%;
-    height: 12%;
-    background-color: #000;
-    align-content: center;
-}
+    .pros{
+        display: flex;
+        width: 100%;
+        height: 38%;
+        background-color: #000;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .pro{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .pros_name{
+        color: #FBFBFB;
+        font-family: Lato;
+        font-size: 19.96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .e-mailSubs{
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    .photo_and_quote{
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo{
+        height: 94px;
+        width: 94px;
+        border-radius: 100px;
+    }
+    .quote
+    {
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .e-mail{
+        margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .email{
+        box-sizing: border-box;
+        font-family: inherit;
+        border-radius: 100px;
+        height: 14%;
+    }
+    .email::placeholder{
+        
+    }
+    .SUBS{
+        margin: 0;
+        margin-top: 20%;
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 167.2%;
+    }
+    .subs{
+        margin: 0;
+        color: #222224;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167.2%;
+    }
+    .deep{
+        display: flex;
+        width: 100%;
+        height: 12%;
+        background-color: #000;
+        align-content: center;
+    }
 
-.sign{
-    position: relative;
-    left: 15%;
-    color: #FBFBFB;
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    .sign{
+        position: relative;
+        left: 15%;
+        color: #FBFBFB;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+@media screen {
+    .header{
+        .search{
+            left: 20%;
+        }
+        .menu{
+            left: 30%;
+        }
+        .account{
+            left: 40%;  
+        }
+        .cart{
+            left: 50%;
+        }
+    }
 }

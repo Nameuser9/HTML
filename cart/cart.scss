@@ -94,7 +94,6 @@ input{
 .page-name{
     display: flex;
     height: 148px;
-    width: 1600px;
     color:  #F8F3F4;
     font-family: Lato;
     font-size: 24px;
@@ -113,7 +112,7 @@ input{
 
 
     .cart-products{
-        width: 1110px;
+        
         .product{
             
             width: 652px;
@@ -284,85 +283,184 @@ input{
 
 .footer{
     position: relative;
-    
-}
-.e-mailSubs{
-    display: flex;
-    width: 100%;
-    height: 50%;
-}
-.photo_and_quote{
-    width: 15%;
-    margin-top: 2%;
-    margin-left: 15%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.photo{
-    height: 94px;
-    width: 94px;
-    border-radius: 100px;
-}
-.quote
-{
-    color: #222224;
-text-align: center;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.e-mail{
-    margin-left: 20%;
-    display: flex;
-    flex-direction: column;
-}
-.email{
-    box-sizing: border-box;
-    font-family: inherit;
-    border-radius: 100px;
-    height: 14%;
-}
-.email::placeholder{
-    
-}
-.SUBS{
-    margin: 0;
-    margin-top: 20%;
-    color: #222224;
+        
+
+    .e-mailSubs{
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    .photo_and_quote{
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo{
+        height: 94px;
+        width: 94px;
+        border-radius: 100px;
+    }
+    .quote
+    {
+        color: #222224;
     text-align: center;
     font-family: Lato;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 167.2%;
-}
-.subs{
-    margin: 0;
-    color: #222224;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 167.2%;
-}
-.deep{
-    display: flex;
-    width: 100%;
-    height: 12%;
-    background-color: #000;
-    align-content: center;
-}
-
-.sign{
-    position: relative;
-    left: 15%;
-    color: #FBFBFB;
-    font-family: Lato;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    }
+    .e-mail{
+        margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .email{
+        box-sizing: border-box;
+        font-family: inherit;
+        border-radius: 100px;
+        height: 14%;
+    }
+    .email::placeholder{
+        
+    }
+    .SUBS{
+        margin: 0;
+        margin-top: 20%;
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 167.2%;
+    }
+    .subs{
+        margin: 0;
+        color: #222224;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167.2%;
+    }
+    .deep{
+        display: flex;
+        width: 100%;
+        height: 12%;
+        background-color: #000;
+        align-content: center;
+    }
+
+    .sign{
+        position: relative;
+        left: 15%;
+        color: #FBFBFB;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+/*@media screen { //1024х768
+    
+    .header{
+        .search{
+            left: 20%;
+        }
+        .menu{
+            left: 30%;
+        }
+        .account{
+            left: 40%;  
+        }
+        .cart{
+            left: 50%;
+        }
+    }
+    .cart-place{
+        height: 670px;
+        .cart-products{
+            
+            .product{
+                width: 512px;
+                height: 306px;
+                left: 40px;
+                .cross{
+                    left: 220px;
+                }
+    
+            }
+        }
+        .client-data{
+            left: 610px;
+            bottom: 640px;
+        }
+    }
+}*/
+@media screen { //1024х768
+    input{
+       width: 96%;
+    }
+    .header{
+        .search{
+            left: 20%;
+        }
+        .menu{
+            left: 30%;
+        }
+        .account{
+            left: 40%;  
+        }
+        .cart{
+            left: 50%;
+        }
+    }
+    .cart-place{
+        height: 670px;
+        .cart-products{
+            width: 50%;
+            .product{
+                width: 100%;
+                left: 40px;
+                .product-photo{
+                    width: 45%;
+                    height: 100%;
+                }
+                .product-info{
+                    left: 45%;
+                }
+                .product-info-name{
+                    margin: 42px 0 42px 11px
+                }
+                .cross{
+                    left: 46%;
+                }
+    
+            }
+        }
+        .client-data{
+            left: 60%;
+            bottom: 100%;
+            .client-data-total-cost{
+                width: 110%;
+                &-sub-total-price{
+                    margin: 39px 34px 0 45%;
+                    }
+                &-total-price{
+                    margin: 12px 37px 0 35%;
+                    }
+                
+                .client-data-total-cost-proceed-to-checkout{
+                width: 70%;
+                margin: 5% 10%;
+                }
+            }
+            
+        }
+    }
 }
