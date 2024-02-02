@@ -190,7 +190,7 @@ input{
         bottom: 640px;
         display: flex;
         flex-direction: column;
-        width: 250px;
+        width: 25%;
         gap: 30px;
         &-input2::placeholder{
             color: #222;
@@ -402,7 +402,7 @@ input{
         }
     }
 }*/
-@media screen { //1024х768
+@media screen and (width < 1024px) { //1024х768
     input{
        width: 96%;
     }
@@ -444,6 +444,7 @@ input{
             }
         }
         .client-data{
+            width: 33%;
             left: 60%;
             bottom: 100%;
             .client-data-total-cost{

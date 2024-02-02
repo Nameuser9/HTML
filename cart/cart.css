@@ -264,7 +264,7 @@ input::placeholder {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 250px;
+  width: 25%;
   gap: 30px;
 }
 
@@ -556,6 +556,7 @@ input::placeholder {
     left: 46%;
   }
   .cart-place .client-data {
+    width: 33%;
     left: 60%;
     bottom: 100%;
   }

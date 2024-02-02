@@ -531,6 +531,55 @@ input::placeholder {
   }
 }
 
+@media screen and (width< 500px){
+  input{
+      width: 80%;
+      left: 10%;
+      margin-left: 20px;
+  }
+  .header-search {
+    left: 20%;
+  }
+  .header-menu {
+    left: 30%;
+  }
+  .header-account {
+    left: 40%;
+  }
+  .header-cart {
+    left: 50%;
+  }
+  .page-name-p{
+    left: 20%;
+  }
+  .mid{
+      display: flex;
+      flex-direction: column;
+      .mid-inputs{
+          width: 100%;
+          .mid-inputs-name,.mid-inputs-name-2{
+            margin-left: 10%;
+          }
+          .mid-inputs-radioplace{
+            width: 50%;
+          }
+          .mid-inputs-warring{
+            width: 70%;
+          }
+          .mid-inputs-warring , .mid-inputs-button{
+            left: 20%;
+          }
+      }
+      .mid-loyalty{
+          bottom: 0;
+          left: 0;
+          .mid-loyalty-join{
+            width: 100%;
+          }
+      }
+    }
+}
+
 /*
 @media screen and (width: 425){
     input{

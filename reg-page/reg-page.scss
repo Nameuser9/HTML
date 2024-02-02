@@ -444,7 +444,23 @@ input{
     }
     
 } 
-
+@media screen and (width< 500px){
+    input{
+        width: 80%;
+        left: 10%;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-inputs{
+        width: 100%;
+    }
+    .mid-loyalty{
+        bottom: 0;
+        left: 0;
+    }
+}
 /*
 @media screen and (width: 425){
     input{
