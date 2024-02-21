@@ -109,3 +109,78 @@ const dz2_task4 = function(){
     const div = (a , b ) => (a/b); 
     
 }
+const dz3_task1 = function(){
+    let numbs = new Array ();
+    let i = 0;
+    
+    const isOdd = function(a){
+        if (a == 0){
+            return(" - это ноль")
+        }
+        if (a%2 == 0 && a != 0){
+            return(" - четное число")
+        }
+        if (a%2 == 1){
+            return(" - нечетное число")
+        }
+    }
+    while (i <= 11){
+        numbs.push(i);
+        console.log(numbs[i] , isOdd(numbs[i]));
+        i++;
+    }
+    
+}
+const dz3_task2 = function(){
+    let numbs = [1,2,3,4,5,6,7]
+    numbs.splice(3,2)
+    return(numbs)
+}
+const dz3_task3 = function(){
+        function randomNumber(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+    let numbers = [randomNumber(0, 9), randomNumber(0, 9)
+        ,randomNumber(0, 9),randomNumber(0, 9),randomNumber(0, 9)];
+    let sumOfElements = 0;
+    let i = 0;
+    while (i < numbers.length){
+        sumOfElements += numbers[i];
+        i++;
+    }
+    function minNumber(array){
+        let minNumber = 0;
+        for(i = 0; i<= array.length-1; i++){
+            if(array[i] < array[i+1]){
+                minNumber = array[i];
+            }
+            else{
+                minNumber = array[i+1];
+            }
+        }
+        return(minNumber);
+    }
+    function isThere3(array){
+        for(i = 0; i< array.length; i++){
+            if (array[i] == 3){
+                return("There`s a Three, index " , i)
+            }
+        }
+        
+
+    }
+}
+const dz3_task4 = function(){
+    function makeX(count){
+        let i = 0;
+        let answer = ""
+        while (i < count){
+            answer+="X";
+            i++;
+        }
+        return(answer);
+    }
+    for(i = 0; i<20; i++){
+        console.log(makeX(i));
+    }
+}
